@@ -24,7 +24,3 @@ This repository accompanies the dissertation:
 - Users can share their verified status via QR code or API request without repeatedly submitting documents.  
 
 This creates a **tamper-proof, privacy-preserving, and globally verifiable identity layer** powered by blockchain.
-
----
-
-## 🏗️ Repository Structure
