@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "id": "urn:uuid:1234...",
+  "type": ["VerifiableCredential", "DegreeCredential"],
+  "issuer": "did:example:university",
+  "issuanceDate": "2023-07-01T00:00:00Z",
+  "credentialSubject": {
+    "id": "did:example:user",
+    "degree": {
+      "type": "BachelorDegree",
+      "name": "Computer Science"
+    }
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2023-07-01T00:00:00Z",
+    "jws": "eyJ..."
+  }
+}
